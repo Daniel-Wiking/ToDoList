@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>JS + CSS => ToDoList</title>
+    <script defer type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+    <!-- HEADER-->
+    <header>
+        <h1 title="To do list">To do list</h1>
+
+        <nav>
+            <ul class="nav" title="Branches of life">
+
+                <li  alt="Programming">
+                    <a href=""><h2>Programming</h2></a>
+                </li>
+                <li alt="Education">
+                    <a href=""><h2>Education</h2></a>
+                </li >
+                <li  alt="Family">
+                    <a href=""><h2>Family</h2></a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- MAIN-->
+    <main>
+        
+        
+            <button type="button" onclick="showForm()" id="add-task">Add task!</button>
+        <form action="" id="form">
+            <h3>Choose type of task.</h3>
+            <input type="radio" name="branch" id="radio-programming" required> Programming
+            <input type="radio" name="branch" id="radio-education" required> Education
+            <input type="radio" name="branch" id="radio-family" required> Family
+            <h3>Write title of new task.</h3>
+            <textarea id="new-task-title" value="" rows=1 cols=30 required></textarea>
+            <h3>Write in details about your task.</h3>
+            <textarea id="new-task" value="" rows=6 cols=45 required></textarea>
+            <button type="submit" onclick="consoleLogTime()">Confirm task!</button>
+        </form>
+        <ul id="quest-log">
+            <li class="task">
+                <h2>Lorem ipsum </h2>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates repudiandae voluptatum excepturi
+                    amet nobis at odio non ducimus laudantium. Libero.</p>
+            </li>
+
+            <li class="task">
+                <h2>Lorem ipsum </h2>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro labore cumque illum dignissimos
+                    aliquam dolorum ad quis animi sunt neque!</p>
+            </li>
+
+            <li class="task">
+                <h2>Lorem ipsum </h2>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto odit accusamus a. Aut a
+                    voluptates excepturi aperiam incidunt tempora consectetur?</p>
+
+            </li>
+        </ul>
+        <p id="kolory"> Zmiana koloru</p>
+        <button onclick="changeColor('red');">Zmień kolor na czerwony</button>
+        <button onclick="changeColor('blue');">Zmień kolor na niebieski</button>
+
+    </main>
+
+    <!-- RIGHT AD BAR-->
+
+    <div> </div>
+
+    <!-- FOOTER-->
+    <footer>
+        <h3><em>Bądź wytrwały a nie pożałujesz!</em></h3>
+        <nav>
+
+        </nav>
+    </footer>
+
+
+    <!-- SCRIPT-->
+
+
+</body>
+
+</html>
