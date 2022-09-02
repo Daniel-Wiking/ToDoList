@@ -58,6 +58,7 @@ form {
   display:none;
   padding:1em;
   text-align:center;
+  width: 100%;
 }
 form button{
   border-radius:0.5em;
