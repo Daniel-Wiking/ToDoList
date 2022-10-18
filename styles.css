@@ -1,0 +1,114 @@
+/*  CSS   */
+/*  Kolory   */
+
+
+/*  BODY   */
+body {
+  
+  background-color: rgba(0, 0, 0,50%);
+  background-image:url(Ciężka\ praca.jpg);
+  background-color: #cccccc;
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  display: block;
+  font-family:monospace;
+  text-align:center;
+}
+/*  HEADER   */
+
+header {
+  display:block;  
+  margin:1rem auto;
+  top:1em;
+  background-color: rgba(204, 220, 236, 0.663);
+  width: 90%;
+  height: fit-content;
+  border-radius: 1.2rem;
+  font-weight:bolder;
+  
+}
+
+
+.nav {
+  
+  display:flex;
+  list-style-type: none;
+  gap:1rem;
+  padding: 0.3em;
+  flex-basis:content;
+  /* background-color: rgba(193, 48, 22, 0.463);
+  border-end-start-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem; */
+}
+.nav li{
+  flex: 1;
+  flex-wrap:wrap;
+  border-radius:0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.180);
+  margin-bottom:0.5rem
+}
+
+
+
+/*  MAIN   */
+
+form {
+  display:none;
+  padding:1em;
+  text-align:center;
+  width: 100%;
+}
+form button{
+  border-radius:0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.280);
+ 
+}
+form textarea{
+  background-color: rgba(252, 249, 249, 0.8);;
+  border-radius:0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.180);
+}
+
+main {
+  background-color: rgba(204, 220, 236, 0.663);
+  margin-top: 1em;
+  width: 80%;
+  margin: auto;
+  border-radius:1rem;
+  align-items:center;
+  /* border: 2px solid rgba(0, 0, 0, 0.280); */
+}
+
+main ul {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1;
+  border-radius:1em;
+  list-style-type: none;
+  gap:0.4rem;
+  justify-content: center;
+  align-items:center;
+  flex-direction:row-reverse;
+}
+
+.task {
+  background-color: rgba(120, 120, 120, 0.263);
+  padding: 0 1rem 0;
+  border: 2px solid rgba(0, 0, 0, 0.180);
+  border-radius:1em;
+  margin-right:2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
